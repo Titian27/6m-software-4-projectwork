@@ -10,4 +10,4 @@ RUN mvn clean spring-boot:run
 
 COPY . .
 
-CMD ["mvn", "clean spring-boot:run"]
+# CMD ["mvn", "clean spring-boot:run"]
